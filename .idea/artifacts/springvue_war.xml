@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="springvue:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>springvue</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="testvue-1.0.0-BUILD-SNAPSHOT.war">
+      <element id="artifact" artifact-name="springvue:war exploded" />
+    </root>
+  </artifact>
+</component>
